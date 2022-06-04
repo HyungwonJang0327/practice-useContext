@@ -1,12 +1,13 @@
 import React, { useContext } from "react";
 import styled from "styled-components";
 import { ThemeContext } from "../context/ThemeContext";
+const siteVersion = require("../../package.json");
 
 const Footer = () => {
   const { isDark } = useContext(ThemeContext);
   return (
     <FooterWrapper isDark={isDark}>
-      <FooterTitle>Footer</FooterTitle>
+      <FooterTitle>Version: {siteVersion.version}</FooterTitle>
     </FooterWrapper>
   );
 };
