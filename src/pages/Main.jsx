@@ -9,6 +9,7 @@ const Main = () => {
       <WidthSetting>
         <p>
           useContext와 Styled-components를 이용한 다크모드 연습 페이지 입니다.
+          yml. 테스트 push 입니다.
         </p>
       </WidthSetting>
     </MainWrapper>
